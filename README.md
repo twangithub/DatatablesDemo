@@ -4,9 +4,10 @@
 1) 这个demo下载后可以直接运行。
 2) 启动zookeeper。在zk的bin目录下输入 zkCli.cmd 127.0.0.1:2181 测试zk启动是否正确。
 3) 将dubbo-admin-2.5.4.war放到D:\Program Files\apache-tomcat-7.0.82\webapps 目录即可。然后启动Tomcat
+http://localhost:8080/dubbo-admin-2.5.4/ , 用户名密码都是root。
 4) 先启动项目的provider，再启动consumer。
 
-> 1)由于dubbo项目的dubbo:registry属性配置了zookeeper的地址。所以dubbo-admin的运行只需要知道zookeeper的地址即可，一开始以为dubbo-admin必须和zookeeper运行在同一服务器。<br>2) 在D:\Program Files\apache-tomcat-7.0.82\webapps\dubbo-admin-2.5.4\WEB-INF\dubbo.properties 里配置zookeeper的地址，默认是本地的zk地址。<br>3) consumer和provider都需要指定zookeeper的地址，所以他们打成war后可以运行任意服务器，只要zk地址是对的即可。
+>  1)由于dubbo项目的dubbo:registry属性配置了zookeeper的地址。所以dubbo-admin的运行只需要知道zookeeper的地址即可，一开始以为dubbo-admin必须和zookeeper运行在同一服务器。<br><br> 2) 在D:\Program Files\apache-tomcat-7.0.82\webapps\dubbo-admin-2.5.4\WEB-INF\dubbo.properties 里配置zookeeper的地址，默认是本地的zk地址。<br><br> 3) consumer和provider都需要指定zookeeper的地址，所以他们打成war后可以运行任意服务器，只要zk地址是对的即可。
 
 <br>----------------------------------------------------------------------<br>
 
