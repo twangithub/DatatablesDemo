@@ -4,7 +4,7 @@
 3) 在D:\Program Files\apache-tomcat-7.0.82\webapps\dubbo-admin-2.5.4\WEB-INF\dubbo.properties 里配置zookeeper的地址，默认是本地的zk地址。
 4) consumer和provider都需要指定zookeeper的地址，所以他们打成war后可以运行任意服务器，只要zk地址是对的即可。
 
-
+<br>----------------------------------------------------------------------<br>
 
 ###Dubbo背景和简介
 Dubbo开始于电商系统，因此在这里先从电商系统的**演变**讲起。
