@@ -1,3 +1,11 @@
+### dubbo入门笔记
+1) 这个demo下载后可以直接运行。
+2) 由于dubbo项目的dubbo:registry属性配置了zookeeper的地址。所以dubbo-admin的运行只需要知道zookeeper的地址即可，一开始以为dubbo-admin必须和zookeeper运行在同一服务器。
+3) 在D:\Program Files\apache-tomcat-7.0.82\webapps\dubbo-admin-2.5.4\WEB-INF\dubbo.properties 里配置zookeeper的地址，默认是本地的zk地址。
+4) consumer和provider都需要指定zookeeper的地址，所以他们打成war后可以运行任意服务器，只要zk地址是对的即可。
+
+
+
 ###Dubbo背景和简介
 Dubbo开始于电商系统，因此在这里先从电商系统的**演变**讲起。
 1. 单一应用框架(ORM)
